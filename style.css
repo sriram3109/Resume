@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+body
+{
+    background-color:yellow;
+}
+main
+{
+    margin:1rem;
+    display:grid;
+   grid-template-columns:33% 1fr;
+   
+}
+.personal,.skills,.language{
+   line-height:2;
+}
+.internship,.education
+{
+    padding:2rem;
+    line-height:2;
+}
+
+.left
+{
+    background-color:lavender;
+}
+}
+.left-image
+{
+    position:relative;
+
+}
+.left-image h2
+{
+    position:absolute;
+    bottom:0;
+    left:1rem 
+}
+.education ul,.internship ul
+{
+    margin:1rem;
+    
+}
+.education ul
+{
+    margin-top:2rem;
+}
+.education {
+    background-color: aquamarine;
+}
+.internship{
+    background-color:thistle;
+}
